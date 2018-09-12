@@ -20,14 +20,14 @@ public class SolveMaze {
         /*
          * Create a new 10 x 10 maze. Feel free to change these values.
          */
-        Maze maze = new Maze(10, 10);
+        Maze maze = new Maze(30, 10);
 
         /*
          * Pick (0, 0), the bottom left corner, as the starting point.
          * Put the end in the top right corner.
          */
-        maze.startAtZero();
-        maze.endAtTopRight();
+        maze.startAtRandomLocation();
+        maze.endAtRandomLocation();
 
         /*
          * You should be able to solve a 10 x 10 maze in (far fewer than) 1000 steps.
